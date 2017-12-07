@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+
 .rps-img-responsive{
     width: 50%;
 }
 
 .choice{
-    width: 300px;
+    width: 100px;
 }
