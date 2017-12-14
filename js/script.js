@@ -22,13 +22,21 @@
         var userChoice = "";
         var computerChoice = "";
         var winner = "";
-        
         var choices = ["rock", "paper", "scissors"];
+        var num = Math.floor(Math.random()*choices.length);
 
 
 //FUNCTIONS
-
-
+//      $("button").click(function(){    
+//              $("#winner").append("---");
+//      });
+// console.log(num);
+// console.log(choices[0]);
 
 // DOCUMENT READY FUNCTION
-
+// $( document ).ready(function() {
+//      $("button").click(function(){    
+//              $("#computer").append(val.());
+//              $("#user").append(val.());
+//      });
+// });
