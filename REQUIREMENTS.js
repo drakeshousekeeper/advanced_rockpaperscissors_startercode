@@ -17,3 +17,47 @@
 // *************************** YOUR CODE BELOW *******************************
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
+
+
+
+//       <!-- TASK 1: In the div below. 
+//         1. In a header tag, add a title.
+//         2. In a paragraph tag, add instructions on how to play the game.
+//         3. Add a RPS image.
+//         4. Add input box and button .
+//         5. Add divs to record User Choice and Computer Choice.
+//         6. Add a div to record the Winner.
+//      -->
+//       <!-- TASK 1: In the div below. 
+//         1. In a header tag, add a title.
+//         2. In a paragraph tag, add instructions on how to play the game.
+//         3. Add a RPS image.
+//         4. Add input box and button .
+//         5. Add divs to record User Choice and Computer Choice.
+//         6. Add a div to record the Winner.
+//      -->
+
+
+
+// var favElemnt = choices[0];
+// var favElemnt = choices[num];
+
+// var text3 = text1.toLowerCase();
+
+        // var userChoice = "";
+        // var computerChoice = "";
+        // var winnerIs = "";
+        
+
+// var user = $("#user").val();
+// var comp = $("#computer").val();
+// var winn = $("#winner").val();
+
+
+// var user = $("#user-input").val();
+// var comp = $("").val();
+//
+// if (user === "paper" && comp === "rock" || user === "scissors" && comp === "paper" || user === "rock" && comp === "scissors")
+// elseif (user === "rock" && comp === "paper" || user === "paper" && comp === "scissors" || user === "scissors" && comp === "rock")
+// elseif (user === comp)
+// else (user !== "rock" || "paper" || "scissors")

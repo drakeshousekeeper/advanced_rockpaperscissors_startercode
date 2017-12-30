@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
       <title>RPS Game</title>
       
@@ -10,22 +9,13 @@
       <!-- Link CSS here -->
       <link rel="stylesheet" href="css/style.css" />
       
-      <!-- Link JQuery here -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      
       <!-- Link Javascript File here -->
       <script src="js/script.js"></script>
+      
+      <!-- Link JQuery here -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-
   <body>
-      <!-- TASK 1: In the div below. 
-        1. In a header tag, add a title.
-        2. In a paragraph tag, add instructions on how to play the game.
-        3. Add a RPS image.
-        4. Add input box and button .
-        5. Add divs to record User Choice and Computer Choice.
-        6. Add a div to record the Winner.
-     -->
     <div class="container text-center">
       <h1>Rock Paper Scissors</h1>
       
@@ -33,6 +23,8 @@
       
       <p><input id="user-input"></p>
       <p><button>It's Time to D-D-DUEL</button></p>
+      
+      <p><div id="incorrect-input"></div></p>
       
       <div class="row">
         <div class="col-sm-4"> 
@@ -45,22 +37,18 @@
         <div class="col-sm-4">
           <div class="thumbnail">    
             <h4 class="text-center">WINNER</h4>
-              <div class="img-responsive" class="choice" id="winner"></div>
+              <div class="img-responsive" class="choice" id="winn"></div>
           </div>         
         </div>
         
         <div class="col-sm-4"> 
           <div class="thumbnail">    
             <h4 class="text-center">COMPUTER</h4>
-              <div class="img-responsive" class="choice" id="computer"></div>
+              <div class="img-responsive" class="choice" id="comp"></div>
           </div>         
         </div>
       </div>
-        
       </div>
-      
     </div>
-
   </body>
-
 </html>
