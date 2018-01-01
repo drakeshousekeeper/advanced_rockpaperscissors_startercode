@@ -1,14 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 
-.container, .thumbnail{
+body{
     background-color: #212121;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
 }
 
-h1, .thumbnail{
+input{
+    color: black;
+}
+
+.thumbnail{
+    background-color: #212121;
     margin-bottom: 3%;
 }
 
-.text-center{
+h1{
+    margin-bottom: 3%;
     font-family: 'Press Start 2P', cursive;
     color: #ffffff;
 }
@@ -17,6 +25,17 @@ h1, .thumbnail{
     width: 50%;
 }
 
-.choice{
-    width: 100px;
+button{
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 300%;
+    background-color: #212121;
+    box-shadow: -5px 10px #ffffff,
+                -4px 9px #ffffff,
+                -3px 8px #ffffff,
+                -2px 7px #ffffff,
+                -1px 6px #ffffff,
+                0px 5px #ffffff,
+                1px 4px #ffffff;
 }

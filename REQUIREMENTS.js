@@ -61,3 +61,35 @@
 // elseif (user === "rock" && comp === "paper" || user === "paper" && comp === "scissors" || user === "scissors" && comp === "rock")
 // elseif (user === comp)
 // else (user !== "rock" || "paper" || "scissors")
+
+
+// var pics = ["<img src='images/rock.png'>", "<img src='images/paper.png'>", "<img src='images/scissors2.png'>"];
+// 
+//      if (userChoice === "rock") {
+//              $("#user").append(choicesPics[0]);
+//      } else if(userChoice === "paper") {
+//              $("#user").append(choicesPics[1]);
+//      } else if(userChoice === "scissors") {
+//              $("#user").append(choicesPics[2]);
+//      }
+//
+//      if (compChoice === "rock") {
+//              $("#comp").append(choicesPics[0]);
+//      } else if(compChoice === "paper") {
+//              $("#comp").append(choicesPics[1]);
+//      } else if(compChoice === "scissors") {
+//              $("#comp").append(choicesPics[2]);
+//      }
+//
+//      if (user === "paper" && comp === "rock" || user === "scissors" && comp === "paper" || user === "rock" && comp === "scissors") {
+//              $(".row").show();
+//              $("#winn").append("results[0]");
+//      } else if(user === "rock" && comp === "paper" || user === "paper" && comp === "scissors" || user === "scissors" && comp === "rock") {
+//              $(".row").show();
+//              $("#winn").append("results[1]");
+//      } else if(user === comp) {
+//              $(".row").show();
+//              $("#winn").append("results[2]");
+//      } else if(user !== "rock" || "paper" || "scissors") {
+//              $("#winn").append("Haha, wrong");
+//      }
