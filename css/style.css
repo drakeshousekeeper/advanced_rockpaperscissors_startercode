@@ -25,17 +25,14 @@ h1{
     width: 50%;
 }
 
+.responsive{
+    width: 50%;
+}
+
 button{
     font-family: 'Press Start 2P', cursive;
     color: #ffffff;
     border-radius: 5px;
-    height: 300%;
     background-color: #212121;
-    box-shadow: -5px 10px #ffffff,
-                -4px 9px #ffffff,
-                -3px 8px #ffffff,
-                -2px 7px #ffffff,
-                -1px 6px #ffffff,
-                0px 5px #ffffff,
-                1px 4px #ffffff;
+    box-shadow: -3px 5px #ffffff;
 }
