@@ -16,13 +16,22 @@
       <script src="js/script.js"></script>
   </head>
   <body>
+    
+    <div class="text-center" id="instructions">
+        <h3>How To Play</h3>
+        <p>- No</p>
+        <p>- No</p>
+        <p>Ready?</p>
+        <p><button id="ready-button">Ready!</button></p>
+    </div>
+    
     <div class="container text-center">
-      <h1>Rock Paper Scissors</h1>
+      <h1>Rock / Paper / Scissors</h1>
       
-      <p><img src="images/rock_paper_scissors__2x.png" class="rps-img-responsive"></p>
+      <p><img src="https://78.media.tumblr.com/7c0266946d641549ab8a83a17b4ba3e5/tumblr_p73uabmBBd1udc81xo1_500.png" class="responsive"></p>
       
-      <p><input placeholder="type here" id="user-input"></p>
-      <p><button id="play-button">It's Time to D-D-DUEL</button></p>
+      <p><input placeholder=" Type Here" id="user-input"></p>
+      <p><button id="play-button">- It's Time to D-D-DUEL -</button></p>
       
       <p><div id="incorrect-input"></div></p>
       
@@ -30,27 +39,26 @@
         <div class="col-sm-4"> 
           <div class="thumbnail">    
             <h4 class="text-center">YOU</h4>
-              <div class="img-responsive" class="choice" id="user"></div>
+            <img src="" class="responsive" class="choice" id="user">
           </div>         
         </div>
         
         <div class="col-sm-4">
           <div class="thumbnail">    
             <h4 class="text-center">LOOK AT THAT!</h4>
-              <div class="img-responsive" class="choice" id="winn"></div>
+            <img src="" class="responsive" class="choice" id="winn">
           </div>         
         </div>
         
         <div class="col-sm-4"> 
           <div class="thumbnail">    
             <h4 class="text-center">COMPUTER</h4>
-              <div class="img-responsive" class="choice" id="comp"></div>
+            <img src="" class="responsive" class="choice" id="comp">
           </div>         
         </div>
       </div>
       
-      <p><button id="clear-button">Try again?</button></p>
-      
-      </div>
+      <p><button id="clear-button">- Try Again -</button></p>
+    </div>
   </body>
 </html>
